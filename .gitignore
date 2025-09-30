@@ -1,0 +1,28 @@
+# Datos grandes
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.json
+*.avro
+
+# Entornos Python
+bigdata_env/
+venv/
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Sistema
+.DS_Store
+*.log
+*.tmp
+
+# Credenciales
+config/private_*
+*.key
+*.pem
+secrets.yml
