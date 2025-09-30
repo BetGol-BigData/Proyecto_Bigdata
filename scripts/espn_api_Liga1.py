@@ -34,8 +34,6 @@ session.headers.update({
     "Accept": "application/json, text/plain, */*",
     "Referer": "https://www.espn.com/"
 })
-# If you need proxy, set here:
-# session.proxies.update({"http":"http://proxy:port","https":"http://proxy:port"})
 
 def daterange(start_date, end_date):
     s = datetime.strptime(start_date, "%Y-%m-%d").date()
